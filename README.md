@@ -47,8 +47,8 @@ BookMyGas is an online gas booking system designed to streamline the process of 
 
 2. Database setup:
    - Execute DB script as required.
-   - For mySQL -> [here](https://github.com/tanayTelsinge/BookMyGas/blob/main/backend/main/config/mysql_queries.sql), If you are using mySQL, you need to add alternative DB connection logic. (existing one [here](https://github.com/tanayTelsinge/BookMyGas/blob/main/backend/main/config/db.js) is specific to mongoDB).
-   - For mongoDB -> [here] (https://github.com/tanayTelsinge/BookMyGas/blob/main/backend/main/config/mongodb.js)
+   - For mySQL -> [here](https://github.com/tanayTelsinge/BookMyGas/blob/main/backend/main/config/mysql_queries.sql) , If you are using mySQL, you need to add alternative DB connection logic. (existing one [here](https://github.com/tanayTelsinge/BookMyGas/blob/main/backend/main/config/db.js) is specific to mongoDB).
+   - For mongoDB -> [here](https://github.com/tanayTelsinge/BookMyGas/blob/main/backend/main/config/mongodb.js)
    ```bash
    git clone https://github.com/tanaytelsinge/BookMyGas.git
 
@@ -62,6 +62,6 @@ BookMyGas is an online gas booking system designed to streamline the process of 
      ```bash
      npx nodemon server.js
 
-   -Frontend
+   - Frontend
    ```bash
    npm start

@@ -36,11 +36,32 @@ BookMyGas is an online gas booking system designed to streamline the process of 
 ## Getting Started
 
 ### Prerequisites
-- Node.js
-- MongoDB
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
 
 ### Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/tanaytelsinge/BookMyGas.git
+
+2. Database setup:
+   - Execute DB script as required.
+   - For mySQL -> [here](https://github.com/tanayTelsinge/BookMyGas/blob/main/backend/main/config/mysql_queries.sql), If you are using mySQL, you need to add alternative DB connection logic. (existing one [here](https://github.com/tanayTelsinge/BookMyGas/blob/main/backend/main/config/db.js) is specific to mongoDB).
+   - For mongoDB -> [here] (https://github.com/tanayTelsinge/BookMyGas/blob/main/backend/main/config/mongodb.js)
+   ```bash
+   git clone https://github.com/tanaytelsinge/BookMyGas.git
+
+3. Steps to run:
+   - Install packages
+     ```bash
+     npm init
+
+   - For backend, add required variables in .env file (JWT_SECRET, PORT, MONGODB_URL to connect).
+   - Run backend server
+     ```bash
+     npx nodemon server.js
+
+   -Frontend
+   ```bash
+   npm start

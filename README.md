@@ -43,4 +43,4 @@ BookMyGas is an online gas booking system designed to streamline the process of 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/GasEasy.git
+   git clone https://github.com/tanaytelsinge/GasEasy.git

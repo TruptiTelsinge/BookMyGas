@@ -1,0 +1,47 @@
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.login-img {
+flex-grow: 2;
+background-image: url(../assets/gas_burner.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+.login-card {
+  flex-grow: 1;
+}
+
+
+.title {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  align-content: center;
+  padding-right: 2em;
+}
+
+ink {
+  text-decoration: none;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+
+label {
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.navbar img {
+  height: 5vh;
+  border-radius: 50%;
+  object-fit: cover;
+}
